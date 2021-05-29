@@ -1,0 +1,1 @@
+add_library(library2 STATIC lib2.cpp lib2.h)
