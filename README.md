@@ -22,3 +22,17 @@ project
     ├── lib2.test.cpp          # include lib2.h and perform test on it
     └── main.test.cpp          # test entry point 
 ```
+
+## Build and Execution
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
+
+```bash
+./src/main      # run main
+./tests/tests   # run tests
+```
